@@ -20,9 +20,12 @@ img{
     width: 400px;
 }
 .piz{
-    margin-top: 100px;
+    margin-top: 30px;
     background-color: brown;
-    padding: 100px;
+    padding: 50px;
     text-align: center;
     color: burlywood;
+}
+.top{
+    background-color: brown;
 }
