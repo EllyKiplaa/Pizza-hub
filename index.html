@@ -12,26 +12,67 @@
 <body>
     <div class="container-fluid">
             <div class="header"> 
+                <div class="top">
                     <h1> Elite Pizza hub</h1>
                 </div>
+            </div>
             </div>
         </div>
         <div class="piz">
         <div class="row">
             <div class="col">
-                <h2>Crust</h2>
                 <img src="images/Delicious.jpg" alt="image">
-            </div>
+                <div class="overlay">
+                    <div class="text">CRUST</div>
+                  </div>
+            </div> <br>
             <div class="col">
-                <h2>Topping</h2>
                 <img src="images/Dominos-Pizza.jpg" alt="">
+                <div class="overlay">
+                    <div class="text">SIZE</div>
+                  </div>
             </div>
-            <div class="col">
-                <h2>Sizes</h2>
+            <div class="col-6 col-md-4">
                 <img src="/images/pizza-3303388_960_720.jpg" alt="">
+                <div class="overlay">
+                    <div class="text">TOPPING</div>
+                  </div>
             </div>
+        </div> 
+    </div>
+    <form class="form">
+        <div id="for">
+            <div class="container">
+            <div class="row">
+            <div class="col-md-3">
+            <label>SIZE</label>
+         <select class="browser-default custom-select" id="sizes">
+            <option value="0">Choose option</option>
+            <option value="1500">Large =ksh 1500</option>
+            <option value="1000">Medium =ksh 1000</option>
+            <option value="500">Small= ksh 500</option>
+        </select>
+            </div>
+    <div class="col-md-3">
+        <label>CRUST</label>
+        <select class="browser-default custom-select" id="crusts">
+            <option value="">Choose option</option>
+            <option value="1500">Crispy =ksh 1500</option>
+            <option value="1000">Stuffed =ksh 1000</option>
+            <option value="500">Gluten free= ksh 500</option>
+        </select>
+                </div>
+        <div class="col-md-3">
+        <label>TOPPINGS</label>
+        <select class="browser-default custom-select" id="toppings">
+            <option value="">Choose option</option>
+            <option value="1500">Mushroom =ksh 1500</option>
+            <option value="1000">Macon =ksh 1000</option>
+            <option value="1200">Sandwich beef= ksh1200</option>
+            <option value="1000">Mince= ksh 1000</option>
+            <option value="1000">Pineapple= ksh 1000</option>
+        </select>
         </div>
-          </div>
     </div>
 </body>
 </html>
