@@ -24,8 +24,16 @@ img{
     background-color: brown;
     padding: 50px;
     text-align: center;
-    color: burlywood;
+    color: cadetblue;
 }
 .top{
     background-color: brown;
+}
+.btn{
+    margin-top:30px;
+}
+form{
+    margin-top: 30px;
+    color:cadetblue;
+
 }
