@@ -6,4 +6,11 @@ add.addEventListener("click", function() {
     const topping = parseInt(document.getElementById("toppings").value);
     const quantity = parseInt(document.getElementById("quantity").value);
 
-});
+    const results = function() {
+        const table = document.getElementById("table");
+        const row = table.insertRow();
+       
+
+    }
+    results();
+})
