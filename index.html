@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/jquery-3.5.1 .js"></script>
-    <script src="js/scripts.js"></script>
 </head>
 <body>
     <div class="container-fluid">
@@ -19,7 +18,7 @@
             </div>
         </div>
         <div class="piz">
-            <marquee direction="horizantal" height="100" width="100%" bgcolor="white"><h2><strong>Get a Pizza of your choice!</strong></h2></marquee>
+            <marquee direction="horizantal" height="100" width="100%"><h2><strong>Get a Pizza of your choice!</strong></h2></marquee>
         <div class="row">
             <div class="col">
                 <img src="images/Delicious.jpg" alt="image">
@@ -89,6 +88,33 @@
 </div>
 </form><br>
 </section>
+<p class="alert alert-primary text-center" id="para"></p>
+<table class="table" id="table">
+    <thead>
+        <tr>
+            <th scope="row">Quantity</th>
+            <th scope="row">Size</th>
+            <th scope="row">Toppings</th>
+            <th scope="row">Crust</th>
+            <th scope="row">Totals</th>
+        </tr>
+    </thead>
+    <tbody id="tbl"></tbody>
+    <tfoot>
+        <tr></tr>
+    </tfoot>
+</table>
+<div class="d-flex justify-content-center my-4">
+    <input type="checkbox" id="check">
+    <label for="check">
+        Do you want it to be delivered?                
+    </label>
+    <input type="text" id="mess">
+
+</div>
+<button class="btn btn-success mx-auto d-block submit" type="button" id="checkout"><strong>Checkout</strong>
+    </button>
+
 <div class="footer">
     <h2>copyright@2020</h2>
 </div>
