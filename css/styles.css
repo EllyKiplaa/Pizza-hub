@@ -28,10 +28,27 @@ img{
 }
 .top{
     background-color: brown;
+    color: cadetblue;
+    font-style: oblique;
 }
 .btn{
     margin-top:30px;
 }
 section{
     background-image: url(/images/pizza-3303388_960_720.jpgg);
+}
+.footer{
+    text-align: center;
+    background-color: brown;
+    padding: 20px;
+    font-style: italic;
+    color: cadetblue;
+    
+}
+.piz{
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    text-underline-position: auto;
+
 }
