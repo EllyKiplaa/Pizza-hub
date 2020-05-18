@@ -30,3 +30,18 @@ add.addEventListener("click", function() {
 
 
 
+
+const checkout = document.getElementById("checkout")
+
+checkout.addEventListener("click", function(event) {
+    event.preventDefault()
+    const delivery = document.getElementById("check");
+    const para = document.getElementById("para");
+    const deliveryInput = document.getElementById("mess").value;
+
+    if (delivery.checked) {
+        para.innerHTML = `Thank you for your purchase. Your order will be delivered at ${deliveryInput} for an extra 200 bob charge`
+    }
+
+
+})
