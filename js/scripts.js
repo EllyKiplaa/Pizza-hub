@@ -44,4 +44,4 @@ checkout.addEventListener("click", function(event) {
     }
 
 
-})
+});
