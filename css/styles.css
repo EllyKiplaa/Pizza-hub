@@ -38,6 +38,7 @@ section{
     background-image: url(/images/pizza-3303388_960_720.jpgg);
 }
 .footer{
+    margin-top: 30px;
     text-align: center;
     background-color: brown;
     padding: 20px;
